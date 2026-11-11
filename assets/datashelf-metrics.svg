@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 104" width="840" height="104" role="img" aria-labelledby="t d">
+  <title id="t">DataShelf by the numbers</title>
+  <desc id="d">600+ automated tests, 26 API modules, heuristic holdout accuracy raised from 63% to 88%, 114 labelled evaluation messages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1428"/>
+      <stop offset="1" stop-color="#131d3b"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .tile { fill: url(#bg); stroke: #2a3760; }
+      .num { font-size: 30px; font-weight: 700; fill: #f8fafc; letter-spacing: -0.5px; }
+      .lbl { font-size: 12.5px; fill: #a9b8d8; }
+      .acc { fill: #f5a524; }
+      .dim { fill: #7183ab; }
+    </style>
+  </defs>
+
+  <g class="sans">
+    <rect class="tile" x="0.5" y="0.5" width="197" height="103" rx="12"/>
+    <rect class="acc" x="20" y="22" width="22" height="3" rx="1.5"/>
+    <text class="num" x="20" y="62">600<tspan class="acc">+</tspan></text>
+    <text class="lbl" x="20" y="84">pytest + Playwright tests</text>
+
+    <rect class="tile" x="214.5" y="0.5" width="197" height="103" rx="12"/>
+    <rect class="acc" x="234" y="22" width="22" height="3" rx="1.5"/>
+    <text class="num" x="234" y="62">26</text>
+    <text class="lbl" x="234" y="84">FastAPI modules</text>
+
+    <rect class="tile" x="428.5" y="0.5" width="197" height="103" rx="12"/>
+    <rect class="acc" x="448" y="22" width="22" height="3" rx="1.5"/>
+    <text class="num" x="448" y="62" font-size="27"><tspan class="dim">63%</tspan><tspan class="dim" dx="5">→</tspan><tspan class="acc" dx="5">88%</tspan></text>
+    <text class="lbl" x="448" y="84">holdout accuracy, heuristics</text>
+
+    <rect class="tile" x="642.5" y="0.5" width="197" height="103" rx="12"/>
+    <rect class="acc" x="662" y="22" width="22" height="3" rx="1.5"/>
+    <text class="num" x="662" y="62">114</text>
+    <text class="lbl" x="662" y="84">labelled eval messages</text>
+  </g>
+</svg>

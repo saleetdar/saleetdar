@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 280" width="840" height="280" role="img" aria-labelledby="t d">
+  <title id="t">Mohammad Saleet Dar</title>
+  <desc id="d">Software developer in Srinagar, Kashmir. Full-stack web and AI / LLM applications. Open to internships.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#090e1c"/>
+      <stop offset="0.6" stop-color="#101936"/>
+      <stop offset="1" stop-color="#1c2a50"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5a524" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#f5a524" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="840" height="280" rx="16"/></clipPath>
+    <clipPath id="c1"><rect x="68" y="166" height="30" width="509">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        keyTimes="0;0.125;0.3;0.333;1" values="0;509;509;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="68" y="166" height="30" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        keyTimes="0;0.333;0.458;0.633;0.667;1" values="0;0;470;470;0;0"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="68" y="166" height="30" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        keyTimes="0;0.667;0.792;0.967;1" values="0;0;480;480;0"/>
+    </rect></clipPath>
+    <style>
+      .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+      .star { fill: #dbe7ff; animation: tw 4s ease-in-out infinite; }
+      .s2 { animation-delay: 1.3s; } .s3 { animation-delay: 2.6s; }
+      .dot { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes tw { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.95; } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+      @media (prefers-reduced-motion: reduce) { .star, .dot { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="840" height="280" fill="url(#sky)"/>
+
+    <!-- night sky -->
+    <g>
+      <circle class="star" cx="548" cy="40" r="1.1"/>
+      <circle class="star s2" cx="590" cy="88" r="0.9"/>
+      <circle class="star s3" cx="612" cy="142" r="1"/>
+      <circle class="star" cx="648" cy="100" r="1.2"/>
+      <circle class="star s2" cx="676" cy="78" r="0.8"/>
+      <circle class="star s3" cx="760" cy="84" r="1.1"/>
+      <circle class="star" cx="806" cy="104" r="0.9"/>
+      <circle class="star s2" cx="818" cy="72" r="1.2"/>
+      <circle class="star s3" cx="560" cy="124" r="0.8"/>
+      <circle class="star" cx="632" cy="60" r="0.8"/>
+      <circle class="star s2" cx="790" cy="140" r="0.9"/>
+      <circle class="star s3" cx="500" cy="30" r="0.9"/>
+      <circle class="star" cx="430" cy="48" r="0.8"/>
+    </g>
+    <circle cx="716" cy="102" r="46" fill="url(#glow)"/>
+    <circle cx="716" cy="102" r="12" fill="#f7b84a"/>
+
+    <!-- Himalayan ridgelines -->
+    <path fill="#27396a" d="M0 280 L0 232 L80 220 L150 232 L230 212 L310 228 L390 208 L470 224 L540 200 L600 212 L670 150 L715 178 L770 128 L840 168 V280 Z"/>
+    <path fill="#e8efff" fill-opacity="0.72" d="M770 128 L752 144.4 L761 140 L769 148 L778 139 L785 144 L790 139.4 Z"/>
+    <path fill="#e8efff" fill-opacity="0.6" d="M670 150 L654 163.7 L662 160 L669 167 L677 159 L686 160 Z"/>
+    <path fill="#1b294f" d="M0 280 L0 250 L90 238 L170 252 L260 232 L340 248 L430 228 L510 246 L590 218 L650 234 L720 190 L780 214 L840 194 V280 Z"/>
+    <path fill="#111a36" d="M0 280 L0 266 L120 256 L220 268 L330 252 L450 266 L560 248 L680 262 L770 240 L840 254 V280 Z"/>
+
+    <!-- availability -->
+    <rect x="626" y="34" width="174" height="28" rx="14" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.4"/>
+    <circle class="dot" cx="645" cy="48" r="4" fill="#34d399"/>
+    <text class="sans" x="657" y="52.5" font-size="12.5" font-weight="600" fill="#a7f3d0">Open to internships</text>
+
+    <!-- identity -->
+    <text class="mono" x="48" y="62" font-size="12" letter-spacing="1.6" fill="#f5a524">SRINAGAR, KASHMIR · 34.08°N 74.80°E</text>
+    <text class="sans" x="46" y="118" font-size="44" font-weight="700" letter-spacing="-0.5" fill="#f8fafc">Mohammad Saleet Dar</text>
+    <text class="sans" x="48" y="150" font-size="16" fill="#a9b8d8">Software developer · Full-stack web · AI / LLM applications</text>
+
+    <!-- typed line -->
+    <text class="mono" x="48" y="186" font-size="16" font-weight="700" fill="#f5a524">&gt;</text>
+    <g class="mono" font-size="16" fill="#e2e8f7">
+      <text x="68" y="186" textLength="509" lengthAdjust="spacing" clip-path="url(#c1)">Full-stack developer · FastAPI · Next.js · PostgreSQL</text>
+      <text x="68" y="186" textLength="470" lengthAdjust="spacing" clip-path="url(#c2)">Building AI features I can measure, not just demo</text>
+      <text x="68" y="186" textLength="480" lengthAdjust="spacing" clip-path="url(#c3)">B.Tech CSE · University of Kashmir · Class of 2029</text>
+    </g>
+    <rect x="581" y="172" width="9" height="18" fill="#f5a524">
+      <animate attributeName="x" dur="12s" repeatCount="indefinite"
+        keyTimes="0;0.125;0.3;0.333;0.458;0.633;0.667;0.792;0.967;1"
+        values="72;581;581;72;542;542;72;552;552;72"/>
+      <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5;1" values="1;0.15;1"/>
+    </rect>
+  </g>
+  <rect x="0.5" y="0.5" width="839" height="279" rx="16" fill="none" stroke="#2a3760"/>
+</svg>
